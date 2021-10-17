@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(100, 207, 193);
+}
+main {
+  background-color: rgb(100, 207, 193);
+  height: 100vh;
+  text-align: center;
+}
+
+#editor {
+  width: 50%;
+  min-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 7px 7px 0px 0px;
+}
+#preview {
+  font-family: 'Georama', sans-serif;
+  background-color: #eee;
+  padding: 20px;
+  text-align: left;
+  width: 90%;
+  height: fit-content;
+  margin: 30px auto;
+  border: 2px solid black;
+  line-height: 1.5;
+}
+#preview h1,
+h2 {
+  font-weight: 600;
+  color: rgb(0, 14, 54);
+}
+#preview h1 {
+  font-size: 2.5rem;
+}
+#preview h2 {
+  font-size: 2rem;
+}
+#preview p {
+  font-size: 1.25rem;
+}
+#preview img {
+  max-width: 90%;
+  margin-top: 20px;
+}
+#preview code {
+  background-color: rgb(211, 211, 211);
+}
+#preview pre {
+  font-size: 1rem;
+  display: block;
+  overflow: auto;
+  background: rgb(211, 211, 211);
+  padding: 5px;
+  line-height: 1.25;
+}
+#preview blockquote {
+  border-bottom: 2px solid black;
+}
